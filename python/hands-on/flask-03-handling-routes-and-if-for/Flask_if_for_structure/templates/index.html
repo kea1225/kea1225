@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!--
+{% if messsage %}
+    <h1> {{ message }} </h1>
+{% else %}
+    <h1> "There is no message in here...</h1> 
+{% endif %}
+
+{% comment %} Lets focus on how to write if else condition block using jinja template within the html file. As I said, we have seen if else block in the python class and I've already gone over it. If we wanna change the behaviours of structure based on the conditions, we use if else block right. Same as python, we can use if else block within the html file. For example, you have a webpage and there is an input that should be given by user. You are gonna use that input as variable within your function and turn it back with result to the user. But, you have to control user reponse and if the user gives wrong value by mistake, there is a warning message should rise to take attention of user. So, we contol the user response within our application and rise the required massage from html with if else block. 
+
+This is only one example of the usage of if else block. Well, how to write if else block here. if and else lines has to be encapsulated with curly braces and persentage sign. In addition, we need to show the html file that our if else block has ended with writing endif line at the end of the block. Similarly, curly braces and persentage sign has to be put both side of endif line as well. if the condition is true, it gets in the first response, !!! if the condition is false, else statement(s) is addressed !!! {% endcomment %}
+    <ul>
+{% for x in object %}
+     
+        <li>{{ x }}</li>
+    
+{% endfor %}
+{% comment %} Lets have a look at how to use "for block" within the html file.In fact, it has same logic with python "for block". Of course, the object used here comes from the app.py.  At the beginning of the for block we define variable and object where this variable going to take its values. For example, this might be a range, list or dictionary. we called them iterable objects which means you can reach very element of this object using their indexes. we should curly braces and percentage sign both side of first line and we need to put endfor at the end of the for block. Similarly, we should put curly braces and percentage sign both side of endfor line {% endcomment %}
+
+    </ul>
+</body>
+</html>
+
+
+
+
+
+
