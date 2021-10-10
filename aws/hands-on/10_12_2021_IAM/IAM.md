@@ -39,7 +39,7 @@ At the end of the this hands-on training, students will be able to;
 
 - Show the Dashboard of IAM 
 
-- Show IAM users "sign-in link" and customize it as alias . Tell the student to write down the account alias.
+- Show IAM users "sign-in link" and customize the alias . Tell the student to write down the account alias.
 
 - Create IAM user with Administrator access for your daily work :
 
