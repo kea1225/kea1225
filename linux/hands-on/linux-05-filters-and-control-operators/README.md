@@ -418,7 +418,7 @@ cat days.text && cat count.txt
 
 >**||**
 
-- The command shell interprets the (||) as the logical OR. This is opposite of logical AND. Means second command will execute only when first command will be a failure.
+- The command shell interprets the (||) as the logical `OR`. This is opposite of logical `AND`. Means second command will execute only when first command will be a failure.
 ​
 - Display days.txt or write 'clarusway' on the screen, then write 'one'.
 ​
