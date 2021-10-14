@@ -93,17 +93,6 @@ tac count.txt | tee temp.txt | tac
 ls
 cat temp.txt
 ```
-- Create a file named 'myfiles.txt' from the output of 'ls -l' command and display the .txt files.
-​
-```bash
-ls -l | tee myfiles.txt | find *.txt
-```
-- Check whether the myfiles.txt file created and display the content.
-​
-```bash
-ls
-cat myfiles.txt
-```
 
 **grep**
 ​
