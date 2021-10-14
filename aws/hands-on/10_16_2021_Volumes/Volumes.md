@@ -31,7 +31,7 @@ At the end of the this hands-on training, students will be able to;
 
 ![EBS Volumes](./ebs_backed_instance.png)
 
-# PART 1 - EXTEND EBS VOLUME WITHOUT PARTITIONING
+## PART 1 - EXTEND EBS VOLUME WITHOUT PARTITIONING
 
 - launch an instance from aws console in "us-east-1a" AZ.
 - check volumes which volumes attached to instance. 
@@ -39,7 +39,7 @@ At the end of the this hands-on training, students will be able to;
 ```
 lsblk
 ```
-## Section 0 - Create new Volume 
+### Section 0 - Create new Volume 
 
 - create a new volume in the same AZ "us-east-1" with the instance from AWS console "5 GB" for this demo.
 - attach the new volume from aws console, then list block storages again.
@@ -47,7 +47,7 @@ lsblk
 ```
 lsblk
 ```
-## Section 1 - Mounting Volume
+### Section 1 - Mounting Volume
 
 - check if the attached volume is already formatted or not and has data on it.
 ```
@@ -88,7 +88,7 @@ cd /mnt/mp1
 sudo touch hello.txt
 ls
 ```
-## Section 2: Enlarge the new volume (volume-1) in AWS console and modify from terminal
+### Section 2: Enlarge the new volume (volume-1) in AWS console and modify from terminal
 
 - modify the new volume in aws console, and enlarge capacity from 5GB to 6GB .
 - check if the attached volume is showing the new capacity
@@ -139,7 +139,7 @@ df -h
 ls  /mnt/mp1/
 ```
 
-# PART 2 - EXTEND EBS VOLUME WITH PARTITIONING
+## PART 2 - EXTEND EBS VOLUME WITH PARTITIONING
 
 - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/recognize-expanded-volume-linux.html
 
@@ -153,7 +153,7 @@ lsblk
 ```
 df -h
 ```
-## Section 0: Create new volume
+### Section 0: Create new volume
 
 - create tertiary volume (5 GB for this demo) in the same AZ "us-east-1" with the instance on aws console
 - attach the new volume from aws console, then list volumes again.
@@ -170,7 +170,7 @@ df -h
 sudo fdisk -l
 ```
 
-## Section 1: Make partition-1
+### Section 1: Make partition-1
 
 - check all available fdisk commands and using "m".
 
@@ -221,7 +221,7 @@ df -h
 sudo touch /mnt/mp3/helloguys.txt
 ls  /mnt/mp3/
 ```
-## Section 3: Enlarge capacity 
+### Section 3: Enlarge capacity 
 
 - modify the new (3rd) volume in aws console, and enlarge capacity 1 GB more (from 5GB to 6GB for this demo).
 - check if the attached volume is showing the new capacity
@@ -255,7 +255,7 @@ sudo reboot now
 ```
 
 
-# PART 3 - AUTOMOUNT EBS VOLUMES AND PARTITIONS ON REBOOT
+## PART 3 - AUTOMOUNT EBS VOLUMES AND PARTITIONS ON REBOOT
 
 - back up the /etc/fstab file.
 ```
