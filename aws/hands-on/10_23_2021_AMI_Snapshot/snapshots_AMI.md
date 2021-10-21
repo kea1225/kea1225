@@ -286,3 +286,6 @@ Enable Policy
 #### 61. That's it, you're DLM policy is created. Check ıt from console. 
 
 #### 62. Delete the policy. 
+
+## 62. Delete all Snapshots, AMIs nad Instances
+
