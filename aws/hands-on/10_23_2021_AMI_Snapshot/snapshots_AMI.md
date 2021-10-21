@@ -34,7 +34,7 @@ At the end of the this hands-on training, students will be able to;
 
 ![Apache HTTP Server](./ami_lifecycle.png)
 
-Part 1 - Creating an Image from the Snapshot of the Nginx Server and Launching a new Instance
+## Part 1 - Creating an Image from the Snapshot of the Nginx Server and Launching a new Instance
 
 #### 1. Launch an instance with following configurations.
 
@@ -96,7 +96,7 @@ Description : ClaruswayAMI_1
 
 #### 13. Show that the Nginx Web Server is working.
 
-Part 2 - Creating an Image and Launching an Instance from the same Image with "Action Menu"
+## Part 2 - Creating an Image and Launching an Instance from the same Image with "Action Menu"
 
 #### 14. Go to `SampleInstance`
 
@@ -166,7 +166,7 @@ Description : ClaruswayAMI_3
 
 #### 36. Show that the Nginx Web Server is working.
 
-Part 4 - Creating an Image from Customized Instance and Launching an instance from the same AMI
+## Part 4 - Creating an Image from Customized Instance and Launching an instance from the same AMI
 
 
 #### 37. Connect to `SampleInstance` with SSH.
@@ -208,9 +208,9 @@ Description : ClaruswayAMI_4
 ls
 
 
-Part 5 - Make AMI public.
+## Part 5 - Make AMI public.
 
-### 45. First go to the AMI section  from left-hand menu and say students to not to do together.
+#### 45. First go to the AMI section  from left-hand menu and say students to not to do together.
 
 #### 46. Select the ClaruswayAMI_4
 
