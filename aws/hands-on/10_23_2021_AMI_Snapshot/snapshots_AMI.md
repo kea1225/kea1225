@@ -247,7 +247,7 @@ Description: "Test policy"
   Key: Name 
   Value: SampleInstance  
 ```
-#### 55.Tis policy must be associated with an IAM role that has the appropriate permissions. If you choose to create a new role, you must grant relevant role permissions and setup trust relationships correctly. If you are unsure of what role to use, choose Default role. 
+#### 55.This policy must be associated with an IAM role that has the appropriate permissions. If you choose to create a new role, you must grant relevant role permissions and setup trust relationships correctly. If you are unsure of what role to use, choose Default role. 
 ```text
   Default Role 
 ```
