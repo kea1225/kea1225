@@ -1,4 +1,4 @@
-# Hands-on Linux-11 : sed & awk command
+# Hands-on Linux-10 : sed & awk command
 
 Purpose of the this hands-on training is to teach the students how to use sed & awk command.
 
