@@ -1,4 +1,4 @@
-# Hands-on S3-01 : Basic operations, S3 Website Hosting and Versioning
+# Hands-on S3-01 : Basic Operations, S3 Website Hosting and Versioning
 
 Purpose of the this hands-on training is to instruct students how to to create a S3 bucket, how to configure S3 to host static website and to give understanding to versioning and logging.
 
