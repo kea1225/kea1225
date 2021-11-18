@@ -175,7 +175,7 @@ Resources:
           chmod -R 777 /var/www/html
           echo "<html>
           <head>
-              <title> Congratulations! You have created an instance from Launch Template</title>
+              <title> Congratulations! You have created an instance from Launch Template for ALIAS record</title>
           </head>
           <body>
               <h1>This web server is launched from launch configuration by YOUR_NAME</h1>
