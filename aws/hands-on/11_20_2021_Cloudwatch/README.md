@@ -318,14 +318,16 @@ You will see the message Execution result:
 #### Step 6 Creating Stop-Cloudwatch Event
 
 - Go to the CloudWatch Console and from left hand menu under the Event sub-section
-Rules-------> Create Rule 
+Rules-------> Go to the Amazon EventBridge  ----> Create Rule
 
 - Select the Event Source parameters:
 
 ```
-Event Source:
+Create Rule:
+  - Name: Event_Stop
   - Select "Schedule"
-  - Cron expression: 0 18 ? * MON-FRI *
+  - Cron expression: 0 18 ? * MON-SAT *
+  - Select Local Time Zone
 ```
 - Explain the cron parameters. 
 
@@ -337,11 +339,6 @@ Targets:
 ```
 - Click "Configure Details"
 
-```
-- Name: Event_Stop
-- Description: This event provides stop action.
-- State: 	Enabled
-```
 - Click "Create Rule."
 
 #### Step 7 Creating Start-Cloudwatch Event
@@ -352,9 +349,10 @@ Rules-------> Create Rule
 - Select the Event Source parameters:
 
 ```
-Event Source:
+Create Rule:
+  - Name: Event_Start
   - Select "Schedule"
-  - Cron expression: 0 08 ? * MON-FRI *
+  - Cron expression: 0 08 ? * MON-SAT *
 ```
 - Explain the cron parameters. 
 
@@ -366,12 +364,9 @@ Targets:
 ```
 - Click "Configure Details"
 
-```
-- Name: Event_Start
-- Description: This event provides start action.
-- State: 	Enabled
-```
 - Click "Create Rule."
+
+- Go to the newly created start and stop rules and update 
 
 - Show the Instance state that Event is gonna start instance. 
 
