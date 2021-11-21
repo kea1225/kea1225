@@ -101,7 +101,7 @@ systemctl start httpd
 systemctl enable httpd
 ```
 
-4. Create EC2 in default in "clarus-vpc-a" named "Local"
+4. Create EC2 in "clarus-vpc-a" named "Local"
 
 ```bash 
 Region: "N.Virginia"
